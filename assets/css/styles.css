@@ -57,6 +57,7 @@ html {
     display: inline-block;
     border: none;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -391,6 +392,10 @@ html {
 
 #footer p a {
     color: rgba(0, 0, 0, 0.6);
+}
+
+#footer p a:hover {
+    cursor: pointer;
 }
 
 /* modal */
